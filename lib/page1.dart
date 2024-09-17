@@ -8,10 +8,10 @@ class page1 extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: ElevatedButton(
-          onPressed:() {
-            Navigator.pushNamed(context, '/page2');
-          },
-          child: Text('Pindah ke halaman 2')),
+            onPressed: () {
+              Navigator.pushNamed(context, '/page2');
+            },
+            child: Text("Pindah ke halaman 2")),
       ),
     );
   }
